@@ -1,0 +1,28 @@
+﻿{
+  "Info": {
+    "Class": "clsDbReport",
+    "Description": "Produits par catégorie Print Settings"
+  },
+  "Items": {
+    "Printer": {
+      "Orientation": "Landscape",
+      "PaperSize": "A4"
+    },
+    "Margins": {
+      "LeftMargin": 0.75,
+      "TopMargin": 1,
+      "RightMargin": 0.5,
+      "BotMargin": 1,
+      "DataOnly": false,
+      "Width": 3,
+      "Height": 0.25,
+      "DefaultSize": false,
+      "Columns": 3,
+      "ColumnSpacing": 0.25,
+      "RowSpacing": 0,
+      "ItemLayout": "Vertical Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    }
+  }
+}

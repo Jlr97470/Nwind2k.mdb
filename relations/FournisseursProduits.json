@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "FournisseursProduits",
+    "Attributes": 0,
+    "Table": "Fournisseurs",
+    "ForeignTable": "Produits",
+    "Fields": [
+      {
+        "Name": "N° fournisseur",
+        "ForeignName": "N° fournisseur"
+      }
+    ]
+  }
+}

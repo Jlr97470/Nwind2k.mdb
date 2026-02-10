@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "MessagersCommandes",
+    "Attributes": 0,
+    "Table": "Messagers",
+    "ForeignTable": "Commandes",
+    "Fields": [
+      {
+        "Name": "N° messager",
+        "ForeignName": "N° messager"
+      }
+    ]
+  }
+}

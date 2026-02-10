@@ -1,0 +1,683 @@
+﻿Version =17
+VersionRequired =17
+Begin Form
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    ViewsAllowed =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =0
+    Cycle =1
+    GridX =16
+    GridY =16
+    Width =8910
+    DatasheetFontHeight =10
+    ItemSuffix =66
+    Left =225
+    Top =195
+    Right =8895
+    Bottom =4695
+    HelpContextId =420
+    RecSrcDt = Begin
+        0x2bac41359541e140
+    End
+    RecordSource ="req Commandes"
+    Caption ="Commandes"
+    HelpFile ="Nwind80.hlp>Right"
+    DatasheetFontName ="Arial"
+    Begin
+        Begin Label
+            BackStyle =0
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            PictureAlignment =2
+        End
+        Begin CommandButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+        End
+        Begin TextBox
+            SpecialEffect =2
+        End
+        Begin ComboBox
+            SpecialEffect =2
+        End
+        Begin Subform
+            SpecialEffect =2
+        End
+        Begin Section
+            Height =4320
+            BackColor =12632256
+            Name ="Détail"
+            Begin
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    SpecialEffect =0
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =991
+                    Top =1880
+                    Width =710
+                    Height =255
+                    TabIndex =14
+                    BorderColor =8421504
+                    Name ="N° commande"
+                    ControlSource ="N° commande"
+                    EventProcPrefix ="N°_commande"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =136
+                            Top =1880
+                            Width =765
+                            Height =255
+                            BackColor =12632256
+                            ForeColor =8388608
+                            Name ="ÉtiquetteN°Commande"
+                            Caption ="N°comm.:"
+                        End
+                    End
+                End
+                Begin ComboBox
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    AccessKey =85
+                    TextAlign =1
+                    ColumnCount =2
+                    ListRows =5
+                    ListWidth =2880
+                    Left =1096
+                    Top =35
+                    Width =3200
+                    Height =255
+                    Name ="Code client"
+                    ControlSource ="Code client"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT DISTINCTROW [Code client], Société FROM Clients ORDER BY Société;"
+                    ColumnWidths ="0;2880"
+                    StatusBarText ="Sélectionner ou taper un nom de client."
+                    BeforeUpdate ="[Event Procedure]"
+                    AfterUpdate ="[Event Procedure]"
+                    EventProcPrefix ="Code_client"
+                    ControlTipText ="Taper un nom de client ou choisissez-en un dans la liste."
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =106
+                            Top =35
+                            Width =930
+                            Height =240
+                            FontWeight =700
+                            ForeColor =8388608
+                            Name ="ÉtiquetteFacturéA"
+                            Caption ="Fact&uré à:"
+                        End
+                    End
+                End
+                Begin ComboBox
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    AccessKey =83
+                    TextAlign =1
+                    ColumnCount =2
+                    ListWidth =2880
+                    Left =1366
+                    Top =1520
+                    Width =2600
+                    Height =255
+                    TabIndex =7
+                    Name ="N° employé"
+                    ControlSource ="N° employé"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT DISTINCTROW [N° employé], [Nom] & \", \" & [Prénom] AS Représentant FROM "
+                        "Employés ORDER BY [Nom] & \", \" & [Prénom];"
+                    ColumnWidths ="0;2880"
+                    StatusBarText ="Taper le nom d'un représentant ou sélectionnez-en un dans la liste."
+                    EventProcPrefix ="N°_employé"
+                    ControlTipText ="Taper le nom d'un représentant ou sélectionnez-en un dans la liste."
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =151
+                            Top =1520
+                            Width =1140
+                            Height =255
+                            BackColor =12632256
+                            ForeColor =8388608
+                            Name ="ÉtiquetteReprésentant"
+                            Caption ="Repré&sentant:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    AccessKey =68
+                    TextAlign =1
+                    Left =3061
+                    Top =1880
+                    Width =890
+                    Height =255
+                    TabIndex =9
+                    Name ="Date commande"
+                    ControlSource ="Date commande"
+                    Format ="Medium Date"
+                    DefaultValue ="=Date()"
+                    EventProcPrefix ="Date_commande"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =1981
+                            Top =1880
+                            Width =960
+                            Height =255
+                            BackColor =12632256
+                            ForeColor =8388608
+                            Name ="ÉtiquetteDateCommande"
+                            Caption ="&Date comm.:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    AccessKey =76
+                    TextAlign =1
+                    Left =5396
+                    Top =1880
+                    Width =890
+                    Height =255
+                    TabIndex =10
+                    Name ="À livrer avant"
+                    ControlSource ="À livrer avant"
+                    Format ="Medium Date"
+                    EventProcPrefix ="À_livrer_avant"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =4231
+                            Top =1880
+                            Width =1065
+                            Height =255
+                            BackColor =12632256
+                            ForeColor =8388608
+                            Name ="ÉtiquetteÀLivrerAvant"
+                            Caption ="&Livrer avant:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    AccessKey =86
+                    TextAlign =1
+                    Left =7576
+                    Top =1880
+                    Width =890
+                    Height =255
+                    TabIndex =11
+                    Name ="Date envoi"
+                    ControlSource ="Date envoi"
+                    Format ="Medium Date"
+                    EventProcPrefix ="Date_envoi"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =6586
+                            Top =1880
+                            Width =885
+                            Height =255
+                            BackColor =12632256
+                            ForeColor =8388608
+                            Name ="ÉtiquetteDateEnvoi"
+                            Caption ="Date en&voi:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =93
+                    AccessKey =80
+                    TextAlign =3
+                    Left =7096
+                    Top =3650
+                    Height =255
+                    TabIndex =13
+                    Name ="Port"
+                    ControlSource ="Port"
+                    Format ="#,##0.00\" F\";-#,##0.00\" F\""
+                    DefaultValue ="0"
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =3
+                            Left =6076
+                            Top =3650
+                            Width =885
+                            Height =255
+                            BackColor =12632256
+                            ForeColor =8388608
+                            Name ="ÉtiquettePort"
+                            Caption ="&Port:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    AccessKey =89
+                    TextAlign =1
+                    Left =5456
+                    Top =35
+                    Width =3275
+                    Height =255
+                    TabIndex =1
+                    Name ="Destinataire"
+                    ControlSource ="Destinataire"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =4456
+                            Top =35
+                            Width =915
+                            Height =240
+                            FontWeight =700
+                            ForeColor =8388608
+                            Name ="ÉtiquetteDestinataire"
+                            Caption ="Envo&yé à:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =5456
+                    Top =350
+                    Width =3275
+                    Height =420
+                    TabIndex =2
+                    Name ="Adresse livraison"
+                    ControlSource ="Adresse livraison"
+                    EventProcPrefix ="Adresse_livraison"
+                End
+                Begin TextBox
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =5461
+                    Top =830
+                    Width =1110
+                    Height =255
+                    TabIndex =3
+                    Name ="Ville livraison"
+                    ControlSource ="Ville livraison"
+                    EventProcPrefix ="Ville_livraison"
+                End
+                Begin TextBox
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =6631
+                    Top =830
+                    Width =1080
+                    Height =255
+                    TabIndex =4
+                    Name ="Région livraison"
+                    ControlSource ="Région livraison"
+                    EventProcPrefix ="Région_livraison"
+                End
+                Begin TextBox
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =7755
+                    Top =830
+                    Width =973
+                    Height =255
+                    TabIndex =5
+                    Name ="Code postal livraison"
+                    ControlSource ="Code postal livraison"
+                    EventProcPrefix ="Code_postal_livraison"
+                End
+                Begin TextBox
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =7096
+                    Top =1145
+                    Width =1635
+                    Height =255
+                    TabIndex =6
+                    Name ="Pays livraison"
+                    ControlSource ="Pays livraison"
+                    EventProcPrefix ="Pays_livraison"
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    SpecialEffect =0
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =1096
+                    Top =350
+                    Width =3200
+                    Height =420
+                    TabIndex =15
+                    BorderColor =8421504
+                    Name ="Adresse"
+                    ControlSource ="Adresse"
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    SpecialEffect =0
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =1096
+                    Top =830
+                    Width =1035
+                    Height =255
+                    TabIndex =16
+                    BorderColor =8421504
+                    Name ="Ville"
+                    ControlSource ="Ville"
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    SpecialEffect =0
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =2206
+                    Top =830
+                    Width =1080
+                    Height =255
+                    TabIndex =17
+                    BorderColor =8421504
+                    Name ="Région"
+                    ControlSource ="Région"
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    SpecialEffect =0
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =3361
+                    Top =830
+                    Width =945
+                    Height =255
+                    TabIndex =18
+                    BorderColor =8421504
+                    Name ="Code postal"
+                    ControlSource ="Code postal"
+                    EventProcPrefix ="Code_postal"
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    SpecialEffect =0
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =2671
+                    Top =1145
+                    Width =1635
+                    Height =255
+                    TabIndex =19
+                    BorderColor =8421504
+                    Name ="Pays"
+                    ControlSource ="Pays"
+                End
+                Begin Subform
+                    OverlapFlags =85
+                    OldBorderStyle =0
+                    SpecialEffect =0
+                    Left =211
+                    Top =2178
+                    Width =8550
+                    Height =1128
+                    TabIndex =12
+                    Name ="Sous formulaire Commandes"
+                    SourceObject ="Form.Sous-formulaire commandes"
+                    LinkChildFields ="N° commande"
+                    LinkMasterFields ="N° commande"
+                    EventProcPrefix ="Sous_formulaire_Commandes"
+                End
+                Begin OptionGroup
+                    SpecialEffect =0
+                    OverlapFlags =85
+                    AccessKey =77
+                    Left =4321
+                    Top =1459
+                    Width =4395
+                    Height =361
+                    TabIndex =8
+                    BorderColor =8421504
+                    Name ="N° messager"
+                    ControlSource ="N° messager"
+                    EventProcPrefix ="N°_messager"
+                    Begin
+                        Begin Label
+                            BackStyle =1
+                            OverlapFlags =223
+                            Left =4426
+                            Top =1325
+                            Width =795
+                            Height =240
+                            BackColor =12632256
+                            ForeColor =8388608
+                            Name ="ÉtiquetteN°Messager"
+                            Caption ="&Messager:"
+                        End
+                        Begin CheckBox
+                            SpecialEffect =0
+                            OverlapFlags =87
+                            OldBorderStyle =0
+                            Left =7456
+                            Top =1565
+                            OptionValue =3
+                            Name ="Federal"
+                            Begin
+                                Begin Label
+                                    OverlapFlags =247
+                                    Left =7636
+                                    Top =1535
+                                    Width =795
+                                    Height =240
+                                    ForeColor =8388608
+                                    Name ="ÉtiquetteFederal"
+                                    Caption ="Federal"
+                                End
+                            End
+                        End
+                        Begin CheckBox
+                            SpecialEffect =0
+                            OverlapFlags =87
+                            OldBorderStyle =0
+                            Left =4696
+                            Top =1580
+                            OptionValue =1
+                            Name ="Speedy"
+                            Begin
+                                Begin Label
+                                    OverlapFlags =247
+                                    Left =4926
+                                    Top =1535
+                                    Width =720
+                                    Height =240
+                                    ForeColor =8388608
+                                    Name ="ÉtiquetteSpeedy"
+                                    Caption ="Speedy"
+                                End
+                            End
+                        End
+                        Begin CheckBox
+                            SpecialEffect =0
+                            OverlapFlags =87
+                            OldBorderStyle =0
+                            Left =6121
+                            Top =1580
+                            OptionValue =2
+                            Name ="United"
+                            Begin
+                                Begin Label
+                                    OverlapFlags =247
+                                    Left =6351
+                                    Top =1535
+                                    Width =720
+                                    Height =240
+                                    ForeColor =8388608
+                                    Name ="ÉtiquetteUnited"
+                                    Caption ="United"
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    SpecialEffect =0
+                    OverlapFlags =93
+                    TextAlign =3
+                    BackStyle =0
+                    Left =7096
+                    Top =3365
+                    TabIndex =20
+                    BorderColor =8421504
+                    Name ="SousTotal"
+                    ControlSource ="=[Sous formulaire Commandes].[Form]![SousTotalCommande]"
+                    Format ="#,##0.00\" F\";-#,##0.00\" F\""
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =3
+                            Left =6076
+                            Top =3380
+                            Width =885
+                            Height =240
+                            ForeColor =8388608
+                            Name ="ÉtiquetteSousTotal"
+                            Caption ="Sous total:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    SpecialEffect =0
+                    OverlapFlags =93
+                    TextAlign =3
+                    BackStyle =0
+                    Left =7096
+                    Top =3995
+                    TabIndex =21
+                    BorderColor =8421504
+                    Name ="Total"
+                    ControlSource ="=[SousTotal]+[Port]"
+                    Format ="#,##0.00\" F\";-#,##0.00\" F\""
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =3
+                            Left =6076
+                            Top =3995
+                            Width =885
+                            Height =240
+                            ForeColor =8388608
+                            Name ="ÉtiquetteTotal"
+                            Caption ="Total:"
+                        End
+                    End
+                End
+                Begin Line
+                    OverlapFlags =93
+                    Left =7096
+                    Top =3950
+                    Name ="Ligne57"
+                End
+                Begin Rectangle
+                    SpecialEffect =0
+                    OverlapFlags =247
+                    Left =5956
+                    Top =3320
+                    Width =2790
+                    Height =960
+                    BorderColor =8421504
+                    Name ="Rectangle58"
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    AccessKey =67
+                    Left =4126
+                    Top =3575
+                    Width =1620
+                    TabIndex =22
+                    ForeColor =8388608
+                    Name ="ImprimerFacture"
+                    Caption ="Imprimer fa&cture"
+                    OnClick ="[Event Procedure]"
+                End
+                Begin CommandButton
+                    FontUnderline = NotDefault
+                    OverlapFlags =85
+                    Left =706
+                    Top =3575
+                    Width =2610
+                    TabIndex =23
+                    ForeColor =1279872587
+                    Name ="AfficherProduits"
+                    Caption ="Afficher les produits du mois"
+                    HyperlinkAddress ="produits.doc"
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "Commandes.cls"

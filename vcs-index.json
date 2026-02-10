@@ -1,0 +1,608 @@
+﻿{
+  "Info": {
+    "Class": "clsVCSIndex",
+    "Description": "Version Control System Index"
+  },
+  "Items": {
+    "MergeBuildDate": null,
+    "FullBuildDate": null,
+    "ExportDate": "2026-02-10T06:25:57.000Z",
+    "FullExportDate": "2026-02-10T06:25:57.000Z",
+    "OptionsHash": "397c939",
+    "LastMergedCommit": "",
+    "Components": {
+      "CommandBars": {
+        "Barre de menus personnalisée Les Comptoirs.json": {
+          "FileHash": "5c058cf",
+          "ExportDate": "2026-02-10T06:25:53.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bb970a1"
+        }
+      },
+      "DB Connections": {
+        "db-connection.json": {
+        }
+      },
+      "DB Properties": {
+        "dbs-properties.json": {
+          "FileHash": "4935fea",
+          "ExportDate": "2026-02-10T06:25:53.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bce694d"
+        }
+      },
+      "Doc Properties": {
+        "documents.json": {
+          "FileHash": "c39276a",
+          "ExportDate": "2026-02-10T06:25:57.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5fead31"
+        }
+      },
+      "Forms": {
+        "Analyse des ventes.bas": {
+          "FileHash": "3a81af5",
+          "OtherHash": "f967294",
+          "ExportDate": "2026-02-10T06:25:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3a17fb6"
+        },
+        "Catégories.bas": {
+          "FileHash": "bc64c51",
+          "ExportDate": "2026-02-10T06:25:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "466dced"
+        },
+        "Clients.bas": {
+          "FileHash": "48836bb",
+          "ExportDate": "2026-02-10T06:25:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d24b0b6"
+        },
+        "Commandes client.bas": {
+          "FileHash": "63c0f05",
+          "ExportDate": "2026-02-10T06:25:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3099ef6"
+        },
+        "Commandes trimestrielles.bas": {
+          "FileHash": "a71dedb",
+          "ExportDate": "2026-02-10T06:25:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "da12810"
+        },
+        "Commandes.bas": {
+          "FileHash": "30a4c0e",
+          "OtherHash": "e78a0cd",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "71f2ee6"
+        },
+        "Demarrage.bas": {
+          "FileHash": "daa7e12",
+          "OtherHash": "9b01e0c",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3004932"
+        },
+        "Dialogue états ventes.bas": {
+          "FileHash": "1331bc7",
+          "OtherHash": "5fd379b",
+          "ExportDate": "2026-02-10T06:25:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "dd5729c"
+        },
+        "Dialogue étiquettes clients.bas": {
+          "FileHash": "1e4a3a3",
+          "ExportDate": "2026-02-10T06:25:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4abec33"
+        },
+        "Dialogue Ventes annuelles.bas": {
+          "FileHash": "4eb07b1",
+          "OtherHash": "8d097ea",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a811ff5"
+        },
+        "Employés (saut de page).bas": {
+          "FileHash": "86b984d",
+          "ExportDate": "2026-02-10T06:25:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e62e7f2"
+        },
+        "Employés.bas": {
+          "FileHash": "9d5366a",
+          "OtherHash": "5f4326f",
+          "ExportDate": "2026-02-10T06:25:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "892f52b"
+        },
+        "Fournisseurs.bas": {
+          "FileHash": "ce08fd6",
+          "OtherHash": "c30b707",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6512e24"
+        },
+        "Liste des produits.bas": {
+          "FileHash": "4a25d74",
+          "ExportDate": "2026-02-10T06:25:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9814387"
+        },
+        "Liste téléphonique des clients.bas": {
+          "FileHash": "f65daf7",
+          "ExportDate": "2026-02-10T06:25:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2bcb730"
+        },
+        "Menu général.bas": {
+          "FileHash": "458d9bf",
+          "OtherHash": "6a7c4da",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "451e221"
+        },
+        "Produits.bas": {
+          "FileHash": "2cbbda3",
+          "OtherHash": "715f33f",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "12df68f"
+        },
+        "Sous-formulaire commandes client1.bas": {
+          "FileHash": "a438d1a",
+          "OtherHash": "9708f53",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1ec4e45"
+        },
+        "Sous-formulaire commandes client2.bas": {
+          "FileHash": "c29a186",
+          "ExportDate": "2026-02-10T06:25:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c15644c"
+        },
+        "Sous-formulaire commandes trimestrielles.bas": {
+          "FileHash": "aebfa4e",
+          "ExportDate": "2026-02-10T06:25:55.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "00aff34"
+        },
+        "Sous-formulaire commandes.bas": {
+          "FileHash": "3653042",
+          "OtherHash": "7be1c57",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "16467a5"
+        }
+      },
+      "Hidden Attributes": {
+        "hidden-attributes.json": {
+          "FileHash": "c5f1bdf",
+          "ExportDate": "2026-02-10T06:25:57.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a061716"
+        }
+      },
+      "Macros": {
+        "Clients.bas": {
+          "FileHash": "e82c298",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6c17665"
+        },
+        "Dialogue étiquettes clients.bas": {
+          "FileHash": "aa452d3",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c37af30"
+        },
+        "Employés (saut de page).bas": {
+          "FileHash": "a573418",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "54bc72b"
+        },
+        "Exemple d'Autokeys.bas": {
+          "FileHash": "d7fd902",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1fc8775"
+        },
+        "Fournisseurs.bas": {
+          "FileHash": "79a526f",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a7eeacc"
+        },
+        "Liste téléphonique des clients.bas": {
+          "FileHash": "3f45c49",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d736254"
+        },
+        "Totaux des ventes par montant.bas": {
+          "FileHash": "778d252",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "234a85d"
+        }
+      },
+      "Modules": {
+        "Démarrage.bas": {
+          "FileHash": "fb7c4f2",
+          "OtherHash": "57e8e96",
+          "ExportDate": "2026-02-10T06:25:17.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "52205ad"
+        },
+        "Northwind Help Function.bas": {
+          "FileHash": "41a8116",
+          "OtherHash": "ea7451f",
+          "ExportDate": "2026-02-10T06:25:17.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c721c56"
+        },
+        "Utilitaires.bas": {
+          "FileHash": "58fe407",
+          "OtherHash": "df99fdf",
+          "ExportDate": "2026-02-10T06:25:17.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7b50d9e"
+        }
+      },
+      "Nav Pane Groups": {
+        "nav-pane-groups.json": {
+          "FileHash": "20941b0",
+          "ExportDate": "2026-02-10T06:25:57.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "cca7621"
+        }
+      },
+      "Proj Properties": {
+        "proj-properties.json": {
+          "FileHash": "2d2590a",
+          "ExportDate": "2026-02-10T06:25:17.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "07e82d4"
+        }
+      },
+      "Project": {
+        "project.json": {
+          "FileHash": "9244188",
+          "ExportDate": "2026-02-10T06:25:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "cc0ef8d"
+        }
+      },
+      "Queries": {
+        "Catalogue.bas": {
+          "FileHash": "57e6605",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3781355"
+        },
+        "Clients et fournisseurs par ville.bas": {
+          "FileHash": "5bdf9c5",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0101fa5"
+        },
+        "Commandes trimestrielles par produit.bas": {
+          "FileHash": "f655e32",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7977a42"
+        },
+        "Commandes trimestrielles.bas": {
+          "FileHash": "2f8242c",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5ca0d4b"
+        },
+        "Détails commandes complets.bas": {
+          "FileHash": "d4ccaf1",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "aed2546"
+        },
+        "Factures.bas": {
+          "FileHash": "732c6c6",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "043cba4"
+        },
+        "Filtre factures.bas": {
+          "FileHash": "16b1bd8",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d5534af"
+        },
+        "Les dix produits les plus chers.bas": {
+          "FileHash": "fadc233",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "aec5ea4"
+        },
+        "Liste alphabétique des produits.bas": {
+          "FileHash": "c8c449b",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8b0d316"
+        },
+        "Liste des produits courants.bas": {
+          "FileHash": "d150548",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "16552cf"
+        },
+        "Produits par catégorie.bas": {
+          "FileHash": "3617620",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8bef471"
+        },
+        "Produits supérieurs moyenne prix.bas": {
+          "FileHash": "2d900d8",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "cb33db0"
+        },
+        "Récapitulatif des ventes par année.bas": {
+          "FileHash": "768d9d2",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "40d9a4d"
+        },
+        "Récapitulatif des ventes par trimestre.bas": {
+          "FileHash": "e54f62c",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "26bf958"
+        },
+        "req Commandes.bas": {
+          "FileHash": "095e420",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "501f8d8"
+        },
+        "Sous-totaux commandes.bas": {
+          "FileHash": "16e2752",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "48272d5"
+        },
+        "Totaux des ventes par montant.bas": {
+          "FileHash": "892a5d8",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c36f139"
+        },
+        "Ventes annuelles.bas": {
+          "FileHash": "2a7761a",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "dd124b6"
+        },
+        "Ventes par catégorie.bas": {
+          "FileHash": "918dd36",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "999a445"
+        },
+        "Ventes par catégories pour 1995.bas": {
+          "FileHash": "49f9de2",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ab855f7"
+        },
+        "Ventes par représentant par pays.bas": {
+          "FileHash": "29db7ca",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fde9722"
+        },
+        "Ventes pour 1995.bas": {
+          "FileHash": "27c6c0f",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1fd8b16"
+        }
+      },
+      "Relations": {
+        "CatégoriesProduits.json": {
+          "FileHash": "3d57d5f",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4d6c1f4"
+        },
+        "ClientsCommandes.json": {
+          "FileHash": "5465d18",
+          "ExportDate": "2026-02-10T06:25:57.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "089eac5"
+        },
+        "CommandesDétails commandes.json": {
+          "FileHash": "fff74b7",
+          "ExportDate": "2026-02-10T06:25:57.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "da53110"
+        },
+        "EmployésCommandes.json": {
+          "FileHash": "0b6b205",
+          "ExportDate": "2026-02-10T06:25:57.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c537d47"
+        },
+        "FournisseursProduits.json": {
+          "FileHash": "47877e2",
+          "ExportDate": "2026-02-10T06:25:57.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2701a92"
+        },
+        "MessagersCommandes.json": {
+          "FileHash": "74f940b",
+          "ExportDate": "2026-02-10T06:25:57.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c537d47"
+        },
+        "ProduitsDétails commandes.json": {
+          "FileHash": "e6802e0",
+          "ExportDate": "2026-02-10T06:25:57.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "036a38a"
+        }
+      },
+      "Reports": {
+        "Catalogue.bas": {
+          "FileHash": "4c3242d",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6aabb46"
+        },
+        "Étiquettes clients.bas": {
+          "FileHash": "b5e05de",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8c8dca4"
+        },
+        "Facture.bas": {
+          "FileHash": "2966b2d",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "959499c"
+        },
+        "Liste alphabétique des produits.bas": {
+          "FileHash": "a2d0aa7",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "98f6ddf"
+        },
+        "Produits par catégorie.bas": {
+          "FileHash": "da71b8b",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e55fec3"
+        },
+        "Récapitulatif des ventes par année.bas": {
+          "FileHash": "1d8a22e",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "601d178"
+        },
+        "Récapitulatif des ventes par trimestre.bas": {
+          "FileHash": "660e032",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "93a3351"
+        },
+        "Sous-état ventes annuelles.bas": {
+          "FileHash": "93653c6",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b254e47"
+        },
+        "Sous-état ventes par catégorie.bas": {
+          "FileHash": "e2620f4",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ec1353d"
+        },
+        "Totaux des ventes par montant.bas": {
+          "FileHash": "9d441cd",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "522fd93"
+        },
+        "Ventes annuelles.bas": {
+          "FileHash": "21f24e9",
+          "OtherHash": "af494ab",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8cb5b93"
+        },
+        "Ventes par catégorie.bas": {
+          "FileHash": "7fdc214",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a1a0b55"
+        },
+        "Ventes par représentant par pays.bas": {
+          "FileHash": "9e7c50a",
+          "OtherHash": "156806f",
+          "ExportDate": "2026-02-10T06:25:56.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c93454a"
+        }
+      },
+      "Tables": {
+        "Catégories.xml": {
+          "FileHash": "3961af8",
+          "ExportDate": "2026-02-10T06:25:53.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "656ca40"
+        },
+        "Clients.xml": {
+          "FileHash": "fa28de4",
+          "ExportDate": "2026-02-10T06:25:53.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "849fe3f"
+        },
+        "Commandes.xml": {
+          "FileHash": "89ff714",
+          "ExportDate": "2026-02-10T06:25:53.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "faf310f"
+        },
+        "Détails commandes.xml": {
+          "FileHash": "a975127",
+          "ExportDate": "2026-02-10T06:25:53.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5dc1d75"
+        },
+        "Employés.xml": {
+          "FileHash": "44ad6c9",
+          "ExportDate": "2026-02-10T06:25:53.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "acd4efc"
+        },
+        "Fournisseurs.xml": {
+          "FileHash": "9edfec9",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a4486e5"
+        },
+        "Messagers.xml": {
+          "FileHash": "d398ee6",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "522dad0"
+        },
+        "Produits.xml": {
+          "FileHash": "5cb7d66",
+          "ExportDate": "2026-02-10T06:25:54.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4a6f14d"
+        }
+      },
+      "VB Project": {
+        "vbe-project.json": {
+          "FileHash": "19b8070",
+          "ExportDate": "2026-02-10T06:25:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0cdbd35"
+        }
+      },
+      "VBE References": {
+        "vbe-references.json": {
+          "FileHash": "4d50bec",
+          "ExportDate": "2026-02-10T06:25:16.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8a5b86b"
+        }
+      }
+    }
+  }
+}

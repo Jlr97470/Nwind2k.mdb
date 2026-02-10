@@ -1,0 +1,173 @@
+﻿Version =17
+VersionRequired =17
+Begin Form
+    RecordSelectors = NotDefault
+    NavigationButtons = NotDefault
+    DividingLines = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    ViewsAllowed =1
+    BorderStyle =3
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =0
+    Width =4896
+    DatasheetFontHeight =10
+    ItemSuffix =13
+    Left =2220
+    Top =1050
+    Right =7110
+    Bottom =2955
+    HelpContextId =430
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x84c23eb59440e140
+    End
+    Caption ="Étiquettes clients"
+    HelpFile ="Nwind80.hlp>Right"
+    DatasheetFontName ="Arial"
+    Begin
+        Begin Label
+            BackStyle =0
+        End
+        Begin CommandButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+        End
+        Begin TextBox
+            SpecialEffect =2
+        End
+        Begin ListBox
+            SpecialEffect =2
+        End
+        Begin ComboBox
+            SpecialEffect =2
+        End
+        Begin Section
+            Height =1920
+            BackColor =-2147483633
+            Name ="Détail"
+            Begin
+                Begin OptionGroup
+                    OverlapFlags =93
+                    Left =288
+                    Top =240
+                    Width =2880
+                    Name ="ImprimerÉtiquettesPour"
+                    AfterUpdate ="Dialogue étiquettes clients.Active SélectionPays"
+                    DefaultValue ="1"
+                    Begin
+                        Begin Label
+                            BackStyle =1
+                            OverlapFlags =215
+                            Left =432
+                            Top =120
+                            Width =2100
+                            Height =240
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="ÉtiquetteImprimerÉtiquettesPour"
+                            Caption ="Imprimer des étiquettes pour:"
+                        End
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =432
+                            Top =510
+                            OptionValue =1
+                            Name ="TousPays"
+                            Begin
+                                Begin Label
+                                    OverlapFlags =247
+                                    Left =666
+                                    Top =480
+                                    Width =1035
+                                    Height =240
+                                    ForeColor =-2147483630
+                                    Name ="ÉtiquetteTousPays"
+                                    Caption ="Tous les pays"
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            OverlapFlags =87
+                            Left =432
+                            Top =870
+                            OptionValue =2
+                            Name ="PaysSpécifique"
+                            Begin
+                                Begin Label
+                                    OverlapFlags =247
+                                    Left =666
+                                    Top =840
+                                    Width =1455
+                                    Height =240
+                                    ForeColor =-2147483630
+                                    Name ="ÉtiquettePaysSpécifique"
+                                    Caption ="Un pays spécifique"
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    Enabled = NotDefault
+                    OverlapFlags =215
+                    Left =720
+                    Top =1200
+                    Width =2295
+                    TabIndex =1
+                    ForeColor =-2147483630
+                    Name ="SélectionPays"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT DISTINCT Pays FROM Clients ORDER BY Pays;"
+                End
+                Begin CommandButton
+                    Default = NotDefault
+                    OverlapFlags =85
+                    AccessKey =65
+                    Left =3456
+                    Top =240
+                    Width =1199
+                    TabIndex =2
+                    ForeColor =-2147483630
+                    Name ="Aperçu"
+                    Caption ="&Aperçu"
+                    OnClick ="Dialogue étiquettes clients.Aperçu"
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    AccessKey =73
+                    Left =3456
+                    Top =720
+                    Width =1199
+                    TabIndex =3
+                    ForeColor =-2147483630
+                    Name ="Imprimer"
+                    Caption ="&Imprimer"
+                    OnClick ="Dialogue étiquettes clients.Imprimer"
+                End
+                Begin CommandButton
+                    Cancel = NotDefault
+                    OverlapFlags =85
+                    Left =3456
+                    Top =1320
+                    Width =1199
+                    TabIndex =4
+                    ForeColor =-2147483630
+                    Name ="Annuler"
+                    Caption ="Annuler"
+                    OnClick ="Dialogue étiquettes clients.Annuler"
+                End
+            End
+        End
+    End
+End

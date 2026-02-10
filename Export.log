@@ -1,0 +1,342 @@
+﻿-------------------------------------
+Beginning Export of Source Files
+Nwind2k.mdb
+VCS Version 4.1.2
+Full Path: D:\MES_SOURCES\ACCESS\EXEMPLES\ACCESS 2000\NWIND2K\Nwind2k.mdb
+Export Folder: D:\MES_SOURCES\GITHUB\Nwind2k.mdb\
+Performing Full Export
+10/02/2026 10:25:15
+-------------------------------------
+Scanning source files...
+No db connections found in this database.
+No vbe forms found in this database.
+No saved specs found in this database.
+No shared images found in this database.
+No themes found in this database.
+No imex specs found in this database.
+No table data found in this database.
+No table data macros found in this database.
+-------------------------------------
+Exporting project...          
+  Nwind2k.mdb
+[1]
+-------------------------------------
+Exporting vb project...       
+  Comptoir
+[1]
+-------------------------------------
+Exporting vbe references...   
+  Office
+[4]
+-------------------------------------
+Exporting proj properties...  
+  Current Project Properties (Access)
+[1]
+-------------------------------------
+Exporting modules...          
+  Démarrage
+  Northwind Help Function
+  Utilitaires
+[3]
+-------------------------------------
+Exporting commandbars...      
+  Barre de menus personnalisée Les Comptoirs
+
+-------------------------------------
+ERROR: Unhandled error, likely before `On Error` directive
+Source: .Unknown.LogUnhandledErrors
+-------------------------------------
+
+-------------------------------------
+ERROR: Unhandled error, likely before `On Error` directive
+Source: .Unknown.LogUnhandledErrors
+-------------------------------------
+[1]
+-------------------------------------
+Exporting db properties...    
+  Database Properties (DAO)
+[49]
+-------------------------------------
+Exporting tables...           
+  Catégories
+    Sanitized in 0,002 seconds.
+  Catégories (SQL)
+  Clients
+    Sanitized in 0,002 seconds.
+  Clients (SQL)
+  Commandes
+    Sanitized in 0,003 seconds.
+  Commandes (SQL)
+  Détails commandes
+    Sanitized in 0,004 seconds.
+  Détails commandes (SQL)
+  Employés
+    Sanitized in 0,004 seconds.
+  Employés (SQL)
+  Fournisseurs
+    Sanitized in 0,005 seconds.
+  Fournisseurs (SQL)
+  Messagers
+    Sanitized in 0,001 seconds.
+  Messagers (SQL)
+  Produits
+    Sanitized in 0,003 seconds.
+  Produits (SQL)
+[8]
+-------------------------------------
+Exporting queries...          
+  Catalogue
+    Sanitized in 0,004 seconds.
+  Catalogue (SQL)
+  Clients et fournisseurs par ville
+    Sanitized in 0,001 seconds.
+  Clients et fournisseurs par ville (SQL)
+  Commandes trimestrielles
+    Sanitized in 0,001 seconds.
+  Commandes trimestrielles (SQL)
+  Commandes trimestrielles par produit
+    Sanitized in 0,003 seconds.
+  Commandes trimestrielles par produit (SQL)
+  Détails commandes complets
+    Sanitized in 0,002 seconds.
+  Détails commandes complets (SQL)
+  Factures
+    Sanitized in 0,004 seconds.
+  Factures (SQL)
+  Filtre factures
+    Sanitized in 0,001 seconds.
+  Filtre factures (SQL)
+  Les dix produits les plus chers
+    Sanitized in 0,001 seconds.
+  Les dix produits les plus chers (SQL)
+  Liste alphabétique des produits
+    Sanitized in 0,001 seconds.
+  Liste alphabétique des produits (SQL)
+  Liste des produits courants
+    Sanitized in 0,001 seconds.
+  Liste des produits courants (SQL)
+  Produits par catégorie
+    Sanitized in 0,001 seconds.
+  Produits par catégorie (SQL)
+  Produits supérieurs moyenne prix
+    Sanitized in 0,001 seconds.
+  Produits supérieurs moyenne prix (SQL)
+  Récapitulatif des ventes par année
+    Sanitized in 0,002 seconds.
+  Récapitulatif des ventes par année (SQL)
+  Récapitulatif des ventes par trimestre
+    Sanitized in 0,001 seconds.
+  Récapitulatif des ventes par trimestre (SQL)
+  req Commandes
+    Sanitized in 0,002 seconds.
+  req Commandes (SQL)
+  Sous-totaux commandes
+    Sanitized in 0,001 seconds.
+  Sous-totaux commandes (SQL)
+  Totaux des ventes par montant
+    Sanitized in 0,002 seconds.
+  Totaux des ventes par montant (SQL)
+  Ventes annuelles
+    Sanitized in 0,001 seconds.
+  Ventes annuelles (SQL)
+  Ventes par catégorie
+    Sanitized in 0,002 seconds.
+  Ventes par catégorie (SQL)
+  Ventes par catégories pour 1995
+    Sanitized in 0,001 seconds.
+  Ventes par catégories pour 1995 (SQL)
+  Ventes par représentant par pays
+    Sanitized in 0,002 seconds.
+  Ventes par représentant par pays (SQL)
+  Ventes pour 1995
+    Sanitized in 0,002 seconds.
+  Ventes pour 1995 (SQL)
+[22]
+-------------------------------------
+Exporting forms...            
+  Catégories
+    Sanitized in 0,004 seconds.
+  Sous-formulaire commandes client2
+    Sanitized in 0,010 seconds.
+  Clients
+    Sanitized in 0,012 seconds.
+  Liste téléphonique des clients
+    Sanitized in 0,012 seconds.
+  Commandes client
+    Sanitized in 0,004 seconds.
+  Employés (saut de page)
+    Sanitized in 0,011 seconds.
+  Commandes trimestrielles
+    Sanitized in 0,005 seconds.
+  Dialogue états ventes
+    Sanitized in 0,005 seconds.
+  Sous-formulaire commandes trimestrielles
+    Sanitized in 0,008 seconds.
+  Dialogue étiquettes clients
+    Sanitized in 0,004 seconds.
+  Liste des produits
+    Sanitized in 0,003 seconds.
+  Analyse des ventes
+    Sanitized in 0,015 seconds.
+  Employés
+    Sanitized in 0,021 seconds.
+  Commandes
+    Sanitized in 0,016 seconds.
+  Sous-formulaire commandes
+    Sanitized in 0,006 seconds.
+  Dialogue Ventes annuelles
+    Sanitized in 0,003 seconds.
+  Fournisseurs
+    Sanitized in 0,009 seconds.
+  Menu général
+    Sanitized in 0,006 seconds.
+  Produits
+    Sanitized in 0,009 seconds.
+  Sous-formulaire commandes client1
+    Sanitized in 0,004 seconds.
+  Demarrage
+    Sanitized in 0,007 seconds.
+[21]
+-------------------------------------
+Exporting macros...           
+  Totaux des ventes par montant
+    Sanitized in 0,001 seconds.
+  Clients
+    Sanitized in 0,001 seconds.
+  Liste téléphonique des clients
+    Sanitized in 0,005 seconds.
+  Dialogue étiquettes clients
+    Sanitized in 0,003 seconds.
+  Employés (saut de page)
+    Sanitized in 0,001 seconds.
+  Exemple d'Autokeys
+    Sanitized in 0,000 seconds.
+  Fournisseurs
+    Sanitized in 0,004 seconds.
+[7]
+-------------------------------------
+Exporting reports...          
+  Récapitulatif des ventes par année
+    Sanitized in 0,007 seconds.
+  Récapitulatif des ventes par trimestre
+    Sanitized in 0,005 seconds.
+  Catalogue
+    Sanitized in 0,023 seconds.
+  Produits par catégorie
+    Sanitized in 0,005 seconds.
+  Ventes par catégorie
+    Sanitized in 0,006 seconds.
+  Sous-état ventes par catégorie
+    Sanitized in 0,003 seconds.
+  Facture
+    Sanitized in 0,027 seconds.
+  Étiquettes clients
+    Sanitized in 0,002 seconds.
+  Liste alphabétique des produits
+    Sanitized in 0,004 seconds.
+  Ventes annuelles
+    Sanitized in 0,007 seconds.
+  Sous-état ventes annuelles
+    Sanitized in 0,004 seconds.
+  Totaux des ventes par montant
+    Sanitized in 0,005 seconds.
+  Ventes par représentant par pays
+    Sanitized in 0,011 seconds.
+[13]
+-------------------------------------
+Exporting relations...        
+  CatégoriesProduits
+  ClientsCommandes
+  CommandesDétails commandes
+  EmployésCommandes
+  FournisseursProduits
+  MessagersCommandes
+  ProduitsDétails commandes
+[7]
+-------------------------------------
+Exporting doc properties...   
+  Database Documents
+[74]
+-------------------------------------
+Exporting nav pane groups...  
+  Groups
+[1]
+-------------------------------------
+Exporting hidden attributes...
+  Database hidden attributes
+[8]
+-------------------------------------
+Done. (41,54 seconds)
+
+--------------------------------------------------
+                PERFORMANCE REPORTS
+--------------------------------------------------
+Category                      Count     Seconds
+--------------------------------------------------
+CommandBars                   1         36,44
+Forms                         21        1,43
+Queries                       22        0,80
+Reports                       13        0,57
+Doc Properties                74        0,49
+Tables                        8         0,33
+DB Properties                 49        0,21
+Relations                     7         0,13
+Macros                        7         0,13
+VBE References                4         0,12
+Modules                       3         0,12
+Project                       1         0,10
+Nav Pane Groups               1         0,07
+Hidden Attributes             8         0,07
+VB Project                    1         0,07
+Proj Properties               1         0,06
+DB Connections                0         0,02
+Table Data Macros             0         0,01
+IMEX Specs                    0         0,00
+Shared Images                 0         0,00
+Themes                        0         0,00
+Table Data                    0         0,00
+VBE Forms                     0         0,00
+Saved Specs                   0         0,00
+--------------------------------------------------
+TOTALS:                       221       41,20
+--------------------------------------------------
+
+--------------------------------------------------
+Operations                    Count     Seconds
+--------------------------------------------------
+Save CommandBar Images        1         9,60
+Convert to JSON               15614     2,34
+Increment Progress            180       0,85
+Console Updates               11        0,43
+App.SaveAsText()              63        0,40
+Sanitize File                 63        0,34
+Scan DB Objects               1         0,22
+Format SQL                    22        0,22
+Write File                    150       0,14
+App.ExportXML()               8         0,10
+Get File Property Hash        90        0,07
+modFileAccess.VerifyPath      222       0,07
+Delete File                   75        0,05
+Read File Bytes               74        0,05
+Compute SHA256                239       0,04
+Read File                     74        0,04
+Get Modified Date             165       0,04
+Save Table SQL                8         0,03
+Read File DevMode             34        0,03
+Save Query SQL                22        0,03
+Get VBA Hash                  37        0,02
+Export VBE Module             3         0,02
+Format XML                    8         0,01
+Sanitize XML                  8         0,01
+Check for linked table        8         0,01
+Quick Count Files             1         0,01
+Quick Count Objects           1         0,00
+Sanitize VBA Code             16        0,00
+Close Open Objects            1         0,00
+Clear Files by Ext            6         0,00
+modFileAccess.GetUncPath      2         0,00
+--------------------------------------------------
+Other Operations                        26,33
+--------------------------------------------------
+
+

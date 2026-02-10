@@ -1,0 +1,247 @@
+﻿Version =17
+VersionRequired =17
+Begin Form
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    AllowDeletions = NotDefault
+    AllowAdditions = NotDefault
+    AllowEdits = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    ViewsAllowed =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    Width =9150
+    DatasheetFontHeight =10
+    ItemSuffix =20
+    Left =105
+    Top =90
+    Right =8295
+    Bottom =4725
+    HelpContextId =400
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x2ca23ab59440e140
+    End
+    RecordSource ="Commandes trimestrielles"
+    Caption ="Commandes trimestrielles"
+    HelpFile ="Nwind80.hlp>Right"
+    DatasheetFontName ="Arial"
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BackStyle =0
+        End
+        Begin TextBox
+            OldBorderStyle =0
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BackColor =-2147483643
+            BorderColor =-2147483640
+        End
+        Begin ComboBox
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin Subform
+            SpecialEffect =2
+        End
+        Begin ToggleButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            Height =4560
+            BackColor =-2147483633
+            Name ="Détail"
+            Begin
+                Begin TextBox
+                    TabStop = NotDefault
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =1560
+                    Top =285
+                    Width =735
+                    Height =255
+                    ColumnWidth =615
+                    BorderColor =8421504
+                    Name ="Code client"
+                    ControlSource ="Code client"
+                    StatusBarText ="Code unique de cinq caractères se basant sur le nom du client."
+                    InputMask =">LLLLL"
+                    EventProcPrefix ="Code_client"
+                    Begin
+                        Begin Label
+                            BackStyle =1
+                            OverlapFlags =85
+                            Left =150
+                            Top =255
+                            Width =1245
+                            Height =285
+                            FontSize =10
+                            FontWeight =700
+                            Name ="ÉtiquetteCodeClient"
+                            Caption ="Code client"
+                        End
+                    End
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =1560
+                    Top =750
+                    Width =3060
+                    Height =255
+                    ColumnWidth =3000
+                    TabIndex =1
+                    BorderColor =8421504
+                    Name ="Société"
+                    ControlSource ="Société"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =150
+                            Top =720
+                            Width =900
+                            Height =285
+                            FontSize =10
+                            FontWeight =700
+                            Name ="ÉtiquetteSociété"
+                            Caption ="Société"
+                        End
+                    End
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =6426
+                    Top =285
+                    Width =1185
+                    Height =255
+                    ColumnWidth =1185
+                    TabIndex =2
+                    BorderColor =8421504
+                    Name ="Ville"
+                    ControlSource ="Ville"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =5733
+                            Top =255
+                            Width =555
+                            Height =285
+                            FontSize =10
+                            FontWeight =700
+                            Name ="ÉtiquetteVille"
+                            Caption ="Ville"
+                        End
+                    End
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =6426
+                    Top =750
+                    Width =1185
+                    Height =255
+                    ColumnWidth =1185
+                    TabIndex =3
+                    BorderColor =8421504
+                    Name ="Pays"
+                    ControlSource ="Pays"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =5688
+                            Top =720
+                            Width =600
+                            Height =285
+                            FontSize =10
+                            FontWeight =700
+                            Name ="ÉtiquettePays"
+                            Caption ="Pays"
+                        End
+                    End
+                End
+                Begin Subform
+                    OverlapFlags =85
+                    SpecialEffect =3
+                    BorderWidth =3
+                    Left =90
+                    Top =1335
+                    Width =8999
+                    Height =2385
+                    TabIndex =4
+                    Name ="Sous-formulaire commandes trimestrielles"
+                    SourceObject ="Form.Sous-formulaire commandes trimestrielles"
+                    LinkChildFields ="Code client"
+                    LinkMasterFields ="Code client"
+                    EventProcPrefix ="Sous_formulaire_commandes_trimestrielles"
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    DecimalPlaces =0
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =3111
+                    Top =4095
+                    Width =1410
+                    TabIndex =5
+                    Name ="TotalGénéral"
+                    ControlSource ="=[Sous-formulaire commandes trimestrielles]![Total]"
+                    Format ="#,##0.00\" F\";-#,##0.00\" F\""
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =3
+                    Left =105
+                    Top =4065
+                    Width =2820
+                    Height =285
+                    FontSize =10
+                    FontWeight =700
+                    TabIndex =6
+                    BackColor =-2147483633
+                    ForeColor =-2147483630
+                    Name ="ÉtiquetteTotalGénéral"
+                    ControlSource ="=\"Total général pour \" & [Forms]![Commandes trimestrielles]![Sous-formulaire c"
+                        "ommandes trimestrielles].[Form]![Année]"
+                End
+            End
+        End
+    End
+End

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+  <xsd:element name="dataroot">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="Détails_x0020_commandes" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="generated" type="xsd:dateTime"></xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Détails_x0020_commandes">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <od:index index-name="CommandesDétails commandes" index-key="N_x00B0__x0020_commande " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="N° commande" index-key="N_x00B0__x0020_commande " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="PrimaryKey" index-key="N_x00B0__x0020_commande Réf_x0020_produit " primary="yes" unique="yes" clustered="no" order="asc asc"></od:index>
+        <od:index index-name="ProduitsDétails commandes" index-key="Réf_x0020_produit " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="Réf produit" index-key="Réf_x0020_produit " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:tableProperty name="FilterOn" type="1" value="0"></od:tableProperty>
+        <od:tableProperty name="Description" type="10" value="Détails sur les produits, quantités et  prix pour chaque commande de la table commande."></od:tableProperty>
+        <od:tableProperty name="OrderOn" type="1" value="0"></od:tableProperty>
+        <od:tableProperty name="OrderByOn" type="1" value="0"></od:tableProperty>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="N_x00B0__x0020_commande" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="Description" type="10" value="Identique au N° commande de la table Commandes."></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1485"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="N° commande"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="FilterLookup" type="2" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="Réf_x0020_produit" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="Description" type="10" value="Identique à la Réf produit de la table Produits."></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidth" type="3" value="3480"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Réf produit"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"></od:fieldProperty>
+              <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"></od:fieldProperty>
+              <od:fieldProperty name="RowSource" type="12" value="SELECT DISTINCTROW Produits.[Réf produit], Produits.[Nom du produit] FROM Produits ORDER BY Produits.[Nom du produit];"></od:fieldProperty>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidths" type="10" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ListRows" type="3" value="8"></od:fieldProperty>
+              <od:fieldProperty name="ListWidth" type="10" value="0twip"></od:fieldProperty>
+              <od:fieldProperty name="LimitToList" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="FilterLookup" type="2" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="Prix_x0020_unitaire" minOccurs="1" od:jetType="currency" od:sqlSType="money" od:nonNullable="yes" type="xsd:double">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="Format" type="10" value="#,##0.00&quot; F&quot;;-#,##0.00&quot; F&quot;"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1335"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Prix unitaire"></od:fieldProperty>
+              <od:fieldProperty name="FilterLookup" type="2" value="1"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="&gt;=0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Vous devez entrer une valeur positive."></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="Quantité" minOccurs="1" od:jetType="integer" od:sqlSType="smallint" od:nonNullable="yes" type="xsd:short">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="Format" type="10" value="General Number"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="1"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="&gt;0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="La quantité doit être supérieure à 0."></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidth" type="3" value="960"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="FilterLookup" type="2" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="Remise_x0020__x0028__x0025__x0029_" minOccurs="1" od:jetType="single" od:sqlSType="real" od:nonNullable="yes" type="xsd:float">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="Format" type="10" value="Percent"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="Between 0 And 1"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Vous devez entrer une valeur suivie du signe %."></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1185"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="FilterLookup" type="2" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

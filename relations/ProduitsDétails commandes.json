@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "ProduitsDétails commandes",
+    "Attributes": 0,
+    "Table": "Produits",
+    "ForeignTable": "Détails commandes",
+    "Fields": [
+      {
+        "Name": "Réf produit",
+        "ForeignName": "Réf produit"
+      }
+    ]
+  }
+}
