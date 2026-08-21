@@ -1,0 +1,45 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Ventes pour 1995"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "FilterOn": {
+        "Type": 1,
+        "Value": false
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Source pour la requête Ventes par catégorie pour 1995 et pour le formulaire Ventes par produit. Utilise les fonctions Somme et CMonnaie."
+      },
+      "OrderOn": {
+        "Type": 1,
+        "Value": false
+      }
+    },
+    "Columns": {
+      "Produits.[Nom du produit]": {
+        "ColumnWidth": 3210,
+        "AggregateType": -1
+      },
+      "VentesProduit": {
+        "Caption": "VentesProduit",
+        "ColumnWidth": 1530,
+        "Format": {
+          "Type": "dbText",
+          "Value": "#,##0.00\" F\";-#,##0.00\" F\""
+        },
+        "AggregateType": -1
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Source pour la requête Ventes par catégorie pour 1995 et pour le formulaire Ventes par produit. Utilise les fonctions Somme et CMonnaie."
+      }
+    }
+  }
+}

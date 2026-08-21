@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Dialogue Ventes annuelles Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Boîte de dialogue ouverte par l'événement Open de l'état Ventes annuelles. Demande une date de début et de fin; utilise une case à cocher pour afficher des enregistrements et des boutons de commande OK et Annuler. (Procédures événementielles)"
+      }
+    }
+  }
+}

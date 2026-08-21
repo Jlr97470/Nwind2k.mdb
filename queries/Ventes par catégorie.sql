@@ -1,5 +1,5 @@
-﻿SELECT
-  DISTINCTROW Catégories.[Code catégorie],
+﻿SELECT DISTINCTROW
+  Catégories.[Code catégorie],
   Catégories.[Nom de catégorie],
   Produits.[Nom du produit],
   Sum(

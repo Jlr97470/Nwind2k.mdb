@@ -1,0 +1,30 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Sous-totaux commandes"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "OrderOn": {
+        "Type": 1,
+        "Value": false
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Source d'enregistrements pour d'autres requêtes. Utilise les fonctions Sum et CCur pour calculer le sous-total pour chaque commande."
+      },
+      "DatasheetGridlinesBehavior": {
+        "Type": 2,
+        "Value": 3
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Source d'enregistrements pour d'autres requêtes. Utilise les fonctions Sum et CCur pour calculer le sous-total pour chaque commande."
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Totaux des ventes par montant Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Affiche un saut de page et masque le pied de groupe après le dixième enregistrement; imprime un total de page dans le pied de page."
+      }
+    }
+  }
+}

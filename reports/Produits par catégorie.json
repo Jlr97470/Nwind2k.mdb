@@ -23,6 +23,12 @@
       "ItemLayout": "Vertical Columns",
       "FastPrint": 1,
       "Datasheet": 1
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Imprime les produits par catégorie. A 3 colonnes par page; commence chaque catégorie dans une nouvelle colonne; utilise la fonction Compte pour le total des produits dans chaque catégorie."
+      }
     }
   }
 }

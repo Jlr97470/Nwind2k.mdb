@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Commandes trimestrielles Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Formulaire en lecture seule. Affiche les totaux trimestriels pour chaque produit et un total pour 1994."
+      }
+    }
+  }
+}

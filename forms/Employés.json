@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Employés Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Ajoute et modifie des informations personnelles et générales sur les employés. Utilise un contrôle Onglet pour séparer les informations générales et personnelles; comprenant également une photo de l'employé."
+      }
+    }
+  }
+}

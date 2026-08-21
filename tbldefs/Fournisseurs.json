@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Fournisseurs Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Nom, adresse, numéro de téléphone et lien hypertexte vers la page d'accueil des fournisseurs."
+      }
+    }
+  }
+}

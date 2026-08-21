@@ -23,6 +23,12 @@
       "ItemLayout": "Horizontal Columns",
       "FastPrint": 1,
       "Datasheet": 1
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Ajoute et modifie des commandes. Les informations de commande se trouvent dans le formulaire principal; celles des produits commandés dans le sous-formulaire. Calcule le sous-total dans le sous-formulaire et l'affiche dans le formulaire principal."
+      }
     }
   }
 }

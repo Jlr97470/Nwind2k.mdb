@@ -23,6 +23,12 @@
       "ItemLayout": "Horizontal Columns",
       "FastPrint": 1,
       "Datasheet": 1
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Imprime les ventes de 1994 par catégorie. Montre les ventes dans un sous-état et sur un graphique dans l'état principal."
+      }
     }
   }
 }

@@ -23,6 +23,12 @@
       "ItemLayout": "Horizontal Columns",
       "FastPrint": 1,
       "Datasheet": 1
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Visualise et imprime des numéros de téléphone de clients. Utilise une macro et des boutons alphabétiques pour filtrer les noms de société. L'en-tête et le pied de formulaire s'affichent uniquement en mode Formulaire."
+      }
     }
   }
 }

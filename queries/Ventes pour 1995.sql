@@ -1,10 +1,10 @@
-﻿SELECT
-  DISTINCTROW Catégories.[Nom de catégorie],
+﻿SELECT DISTINCTROW
+  Catégories.[Nom de catégorie],
   Produits.[Nom du produit],
   Sum(
     CCur(
-      [Détails commandes].[Prix unitaire] * [Quantité] *(1 - [Remise (%)])/ 100
-    )* 100
+      [Détails commandes].[Prix unitaire] * [Quantité] *(1 - [Remise (%)]) / 100
+    ) * 100
   ) AS VentesProduit
 FROM
   (

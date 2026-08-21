@@ -1,5 +1,5 @@
-﻿SELECT
-  DISTINCTROW Produits.*,
+﻿SELECT DISTINCTROW
+  Produits.*,
   Catégories.[Nom de catégorie]
 FROM
   Catégories
@@ -7,6 +7,6 @@ FROM
 WHERE
   (
     (
-      (Produits.Indisponible)= No
+      (Produits.Indisponible) = No
     )
   );

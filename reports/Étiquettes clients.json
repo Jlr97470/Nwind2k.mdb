@@ -23,6 +23,12 @@
       "ItemLayout": "Horizontal Columns",
       "FastPrint": 1,
       "Datasheet": 0
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Imprime le nom et l'adresse des clients sur des étiquettes en 3 colonnes."
+      }
     }
   }
 }

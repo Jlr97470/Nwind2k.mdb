@@ -1,7 +1,7 @@
 ﻿PARAMETERS [Date début] DateTime,
 [Date fin] DateTime;
-SELECT
-  DISTINCTROW Employés.Pays,
+SELECT DISTINCTROW
+  Employés.Pays,
   Employés.Nom,
   Employés.Prénom,
   Commandes.[Date envoi],

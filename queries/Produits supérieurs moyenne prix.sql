@@ -1,12 +1,12 @@
-﻿SELECT
-  DISTINCTROW Produits.[Nom du produit],
+﻿SELECT DISTINCTROW
+  Produits.[Nom du produit],
   Produits.[Prix unitaire]
 FROM
   Produits
 WHERE
   (
     (
-      (Produits.[Prix unitaire])>(
+      (Produits.[Prix unitaire]) >(
         SELECT
           AVG([Prix unitaire])
         From

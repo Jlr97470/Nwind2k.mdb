@@ -1,0 +1,36 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Ventes par représentant par pays"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "OrderOn": {
+        "Type": 1,
+        "Value": false
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "(Paramètre) Source d'enregistrements pour l'état Ventes par représentant par pays. Requiert une date de début et de fin. "
+      },
+      "DatasheetGridlinesBehavior": {
+        "Type": 2,
+        "Value": 3
+      }
+    },
+    "Columns": {
+      "MontantVente": {
+        "ColumnWidth": 1470,
+        "AggregateType": -1
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "(Paramètre) Source d'enregistrements pour l'état Ventes par représentant par pays. Requiert une date de début et de fin. "
+      }
+    }
+  }
+}

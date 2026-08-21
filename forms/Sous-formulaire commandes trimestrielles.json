@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Sous-formulaire commandes trimestrielles Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Sous-formulaire utilisé dans le formulaire Commandes trimestrielles."
+      }
+    }
+  }
+}

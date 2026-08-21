@@ -23,6 +23,12 @@
       "ItemLayout": "Horizontal Columns",
       "FastPrint": 1,
       "Datasheet": 1
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Boîte de dialogue utilisée pour visualiser ou imprimer des états de ventes. Affiche différents choix dans un groupe d'options; active une zone de liste modifiable pour sélectionner une catégorie pour un état."
+      }
     }
   }
 }

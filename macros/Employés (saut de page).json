@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Employés (saut de page) Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Attachée au formulaire Employés (saut de page).\r\nUtilisée pour se déplacer entre les pages du formulaire."
+      }
+    }
+  }
+}

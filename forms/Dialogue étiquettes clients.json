@@ -23,6 +23,12 @@
       "ItemLayout": "Horizontal Columns",
       "FastPrint": 1,
       "Datasheet": 1
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Dialogue utilisé pour visualiser ou imprimer l'état Étiquettes clients. Utilise un groupe d'options pour sélectionner tous les pays ou un pays spécifique, et une zone de liste modifiable pour sélectionner le pays. Ce formulaire utilise des macros."
+      }
     }
   }
 }

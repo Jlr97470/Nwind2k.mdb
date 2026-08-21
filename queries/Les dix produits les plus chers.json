@@ -1,0 +1,53 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Les dix produits les plus chers"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 24,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Requêtes premières valeurs. Retourne les 10 produits les plus chers. Spécifie le nombre de valeurs les plus élevées à renvoyer en utilisant la zone Premières valeurs de la barre d'outils."
+      },
+      "FilterOn": {
+        "Type": 1,
+        "Value": false
+      },
+      "OrderOn": {
+        "Type": 1,
+        "Value": false
+      },
+      "DatasheetGridlinesColor": {
+        "Type": 4,
+        "Value": 8421504
+      },
+      "DatasheetBackColor": {
+        "Type": 4,
+        "Value": 12632256
+      },
+      "DatasheetCellsEffect": {
+        "Type": 2,
+        "Value": 1
+      }
+    },
+    "Columns": {
+      "LesDixProduitsLesPlusChers": {
+        "Caption": "Les dix produits les plus chers",
+        "ColumnWidth": 3015,
+        "AggregateType": -1
+      },
+      "Produits.[Prix unitaire]": {
+        "ColumnWidth": 1335,
+        "AggregateType": -1
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Requêtes premières valeurs. Retourne les 10 produits les plus chers. Spécifie le nombre de valeurs les plus élevées à renvoyer en utilisant la zone Premières valeurs de la barre d'outils."
+      }
+    }
+  }
+}

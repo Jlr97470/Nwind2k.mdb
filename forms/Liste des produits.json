@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Liste des produits Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Affiche des informations limitées sur les produits. Utilisé comme formulaire indépendant du formulaire Fournisseurs et comme sous-formulaire du formulaire Catégories.\r\n"
+      }
+    }
+  }
+}

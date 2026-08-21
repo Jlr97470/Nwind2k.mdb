@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Détails commandes Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Détails sur les produits, quantités et  prix pour chaque commande de la table commande."
+      }
+    }
+  }
+}

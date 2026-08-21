@@ -1,0 +1,546 @@
+﻿Version =17
+VersionRequired =17
+Begin Form
+    RecordSelectors = NotDefault
+    MaxButton = NotDefault
+    AutoCenter = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    ViewsAllowed =1
+    BorderStyle =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    Cycle =2
+    GridX =24
+    GridY =24
+    Width =8820
+    DatasheetFontHeight =10
+    ItemSuffix =7
+    Left =1000
+    Right =50000
+    Bottom =50000
+    HelpContextId =415
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x757d9690cc40e140
+    End
+    RecordSource ="Employés"
+    Caption ="Employés"
+    AfterUpdate ="[Event Procedure]"
+    HelpFile ="Nwind80.hlp>Right"
+    DatasheetFontName ="Arial"
+    Begin
+        Begin FormHeader
+            Height =510
+            BackColor =8421376
+            Name ="EntêteFormulaire"
+            Begin
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =2
+                    BackStyle =0
+                    Left =5280
+                    Top =120
+                    Width =2880
+                    Height =285
+                    FontSize =10
+                    FontWeight =700
+                    BackColor =0
+                    ForeColor =16777215
+                    Name ="NomEmployé"
+                    ControlSource ="=[Prénom] & \" \" & ![Nom]"
+                End
+            End
+        End
+        Begin Section
+            Height =4228
+            BackColor =-2147483633
+            Name ="Détail"
+            Begin
+                Begin Tab
+                    OverlapFlags =85
+                    Left =90
+                    Top =45
+                    Width =8490
+                    Height =4035
+                    Name ="CtlOng0"
+                    Begin
+                        Begin Page
+                            OverlapFlags =215
+                            Left =225
+                            Top =450
+                            Width =8220
+                            Height =3495
+                            Name ="InfosSociété"
+                            Caption ="Infos société"
+                            Begin
+                                Begin TextBox
+                                    Enabled = NotDefault
+                                    Locked = NotDefault
+                                    OldBorderStyle =0
+                                    BorderWidth =1
+                                    OverlapFlags =215
+                                    TextAlign =1
+                                    BackStyle =0
+                                    Left =2159
+                                    Top =695
+                                    Width =1380
+                                    FontWeight =700
+                                    ForeColor =128
+                                    Name ="N° employé"
+                                    ControlSource ="N° employé"
+                                    StatusBarText ="Numéro automatiquement assigné aux nouveaux employés."
+                                    EventProcPrefix ="N°_employé"
+                                    Begin
+                                        Begin Label
+                                            BackStyle =0
+                                            OverlapFlags =215
+                                            TextAlign =3
+                                            Left =915
+                                            Top =695
+                                            Width =1110
+                                            Height =240
+                                            FontWeight =700
+                                            ForeColor =128
+                                            Name ="ÉtiquetteN°employé"
+                                            Caption ="N° employé:"
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    SpecialEffect =2
+                                    OverlapFlags =215
+                                    Left =2159
+                                    Top =1070
+                                    Width =885
+                                    Height =255
+                                    TabIndex =1
+                                    Name ="Prénom"
+                                    ControlSource ="Prénom"
+                                    Begin
+                                        Begin Label
+                                            BackStyle =0
+                                            OverlapFlags =215
+                                            TextAlign =3
+                                            Left =1245
+                                            Top =1070
+                                            Width =780
+                                            Height =240
+                                            FontWeight =700
+                                            Name ="ÉtiquettePrénom"
+                                            Caption ="Prénom:"
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    SpecialEffect =2
+                                    OverlapFlags =215
+                                    Left =2159
+                                    Top =1535
+                                    Width =1530
+                                    Height =255
+                                    TabIndex =2
+                                    Name ="Nom"
+                                    ControlSource ="Nom"
+                                    Begin
+                                        Begin Label
+                                            BackStyle =0
+                                            OverlapFlags =215
+                                            TextAlign =3
+                                            Left =1500
+                                            Top =1535
+                                            Width =525
+                                            Height =240
+                                            FontWeight =700
+                                            Name ="ÉtiquetteNom"
+                                            Caption ="Nom:"
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    SpecialEffect =2
+                                    OverlapFlags =215
+                                    Left =2159
+                                    Top =2015
+                                    Width =2279
+                                    Height =255
+                                    TabIndex =3
+                                    Name ="Fonction"
+                                    ControlSource ="Fonction"
+                                    StatusBarText ="Fonction de l'employé."
+                                    Begin
+                                        Begin Label
+                                            BackStyle =0
+                                            OverlapFlags =215
+                                            TextAlign =3
+                                            Left =1140
+                                            Top =2015
+                                            Width =885
+                                            Height =240
+                                            FontWeight =700
+                                            Name ="ÉtiquetteFonction"
+                                            Caption ="Fonction:"
+                                        End
+                                    End
+                                End
+                                Begin ComboBox
+                                    LimitToList = NotDefault
+                                    SpecialEffect =2
+                                    OverlapFlags =215
+                                    TextAlign =1
+                                    ColumnCount =2
+                                    Left =2159
+                                    Top =2495
+                                    Width =2279
+                                    Height =255
+                                    TabIndex =4
+                                    Name ="Rend compte à"
+                                    ControlSource ="Rend compte à"
+                                    RowSourceType ="Table/Query"
+                                    RowSource ="SELECT DISTINCTROW Employés.[N° employé], [Nom] & \", \" & [Prénom] AS RendCompt"
+                                        "eA FROM Employés ORDER BY [Nom], [Prénom];"
+                                    ColumnWidths ="0"
+                                    StatusBarText ="Superviseur de l'employé."
+                                    EventProcPrefix ="Rend_compte_à"
+                                    Begin
+                                        Begin Label
+                                            BackStyle =0
+                                            OverlapFlags =215
+                                            TextAlign =3
+                                            Left =585
+                                            Top =2495
+                                            Width =1440
+                                            Height =240
+                                            FontWeight =700
+                                            Name ="ÉtiquetteRendCompteA"
+                                            Caption ="Rend compte à:"
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    SpecialEffect =2
+                                    OverlapFlags =215
+                                    TextAlign =1
+                                    Left =2159
+                                    Top =2975
+                                    Height =255
+                                    TabIndex =5
+                                    Name ="Date d'embauche"
+                                    ControlSource ="Date d'embauche"
+                                    Format ="Medium Date"
+                                    EventProcPrefix ="Date_d_embauche"
+                                    Begin
+                                        Begin Label
+                                            BackStyle =0
+                                            OverlapFlags =215
+                                            TextAlign =3
+                                            Left =390
+                                            Top =2975
+                                            Width =1635
+                                            Height =240
+                                            FontWeight =700
+                                            Name ="ÉtiquetteDateEmbauche"
+                                            Caption ="Date d'embauche:"
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    SpecialEffect =2
+                                    OverlapFlags =215
+                                    Left =2159
+                                    Top =3455
+                                    Height =255
+                                    TabIndex =6
+                                    Name ="Extension"
+                                    ControlSource ="Extension"
+                                    StatusBarText ="Numéro de l'extension téléphonique interne."
+                                    Begin
+                                        Begin Label
+                                            BackStyle =0
+                                            OverlapFlags =215
+                                            TextAlign =3
+                                            Left =1050
+                                            Top =3455
+                                            Width =975
+                                            Height =240
+                                            FontWeight =700
+                                            Name ="ÉtiquetteExtension"
+                                            Caption ="Extension:"
+                                        End
+                                    End
+                                End
+                                Begin BoundObjectFrame
+                                    TabStop = NotDefault
+                                    SpecialEffect =2
+                                    OverlapFlags =215
+                                    Left =5310
+                                    Top =690
+                                    Width =2808
+                                    Height =3239
+                                    TabIndex =7
+                                    Name ="Photo"
+                                    ControlSource ="Photo"
+                                    StatusBarText ="Photo de l'employé."
+                                End
+                            End
+                        End
+                        Begin Page
+                            OverlapFlags =247
+                            Left =225
+                            Top =450
+                            Width =8220
+                            Height =3495
+                            Name ="InfosPersonnelles"
+                            Caption ="Infos personnelles"
+                            Begin
+                                Begin TextBox
+                                    SpecialEffect =2
+                                    OverlapFlags =247
+                                    Left =2159
+                                    Top =1070
+                                    Width =2880
+                                    Height =449
+                                    Name ="Adresse"
+                                    ControlSource ="Adresse"
+                                    StatusBarText ="Rue ou boîte postale."
+                                    Begin
+                                        Begin Label
+                                            BackStyle =0
+                                            OverlapFlags =247
+                                            TextAlign =3
+                                            Left =1200
+                                            Top =1035
+                                            Width =825
+                                            Height =240
+                                            FontWeight =700
+                                            Name ="ÉtiquetteAdresse"
+                                            Caption ="Adresse:"
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    SpecialEffect =2
+                                    OverlapFlags =247
+                                    Left =2159
+                                    Top =1645
+                                    Height =255
+                                    TabIndex =1
+                                    Name ="Ville"
+                                    ControlSource ="Ville"
+                                    Begin
+                                        Begin Label
+                                            BackStyle =0
+                                            OverlapFlags =247
+                                            TextAlign =3
+                                            Left =1515
+                                            Top =1645
+                                            Width =510
+                                            Height =240
+                                            FontWeight =700
+                                            Name ="ÉtiquetteVille"
+                                            Caption ="Ville:"
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    SpecialEffect =2
+                                    OverlapFlags =247
+                                    Left =4965
+                                    Top =1645
+                                    Height =255
+                                    TabIndex =2
+                                    Name ="Région"
+                                    ControlSource ="Région"
+                                    StatusBarText ="Etat ou province."
+                                    Begin
+                                        Begin Label
+                                            BackStyle =0
+                                            OverlapFlags =247
+                                            TextAlign =1
+                                            Left =4035
+                                            Top =1645
+                                            Width =750
+                                            Height =240
+                                            FontWeight =700
+                                            Name ="ÉtiquetteRégion"
+                                            Caption ="Région:"
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    SpecialEffect =2
+                                    OverlapFlags =247
+                                    Left =2159
+                                    Top =2005
+                                    Height =255
+                                    TabIndex =3
+                                    Name ="Code postal"
+                                    ControlSource ="Code postal"
+                                    EventProcPrefix ="Code_postal"
+                                    Begin
+                                        Begin Label
+                                            BackStyle =0
+                                            OverlapFlags =247
+                                            TextAlign =3
+                                            Left =870
+                                            Top =2005
+                                            Width =1155
+                                            Height =240
+                                            FontWeight =700
+                                            Name ="ÉtiquetteCodePostal"
+                                            Caption ="Code postal:"
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    SpecialEffect =2
+                                    OverlapFlags =247
+                                    Left =4965
+                                    Top =2005
+                                    Height =255
+                                    TabIndex =4
+                                    Name ="Pays"
+                                    ControlSource ="Pays"
+                                    Begin
+                                        Begin Label
+                                            BackStyle =0
+                                            OverlapFlags =247
+                                            TextAlign =1
+                                            Left =4230
+                                            Top =2005
+                                            Width =555
+                                            Height =240
+                                            FontWeight =700
+                                            Name ="ÉtiquettePays"
+                                            Caption ="Pays:"
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    SpecialEffect =2
+                                    OverlapFlags =247
+                                    Left =2159
+                                    Top =2485
+                                    Height =255
+                                    TabIndex =5
+                                    Name ="Tél domicile"
+                                    ControlSource ="Tél domicile"
+                                    StatusBarText ="Numéro de téléphone incluant le code du pays ou de la zone."
+                                    EventProcPrefix ="Tél_domicile"
+                                    Begin
+                                        Begin Label
+                                            BackStyle =0
+                                            OverlapFlags =247
+                                            TextAlign =3
+                                            Left =225
+                                            Top =2485
+                                            Width =1800
+                                            Height =240
+                                            FontWeight =700
+                                            Name ="ÉtiquetteTéléphoneDom"
+                                            Caption ="Téléphone domicile:"
+                                        End
+                                    End
+                                End
+                                Begin ComboBox
+                                    RowSourceTypeInt =1
+                                    SpecialEffect =2
+                                    OverlapFlags =247
+                                    Left =2159
+                                    Top =2950
+                                    Height =255
+                                    TabIndex =6
+                                    Name ="Titre de courtoisie"
+                                    ControlSource ="Titre de courtoisie"
+                                    RowSourceType ="Value List"
+                                    RowSource ="Dr.;Mlle;Mme;M."
+                                    StatusBarText ="Titre utilisé lors de salutations."
+                                    EventProcPrefix ="Titre_de_courtoisie"
+                                    Begin
+                                        Begin Label
+                                            BackStyle =0
+                                            OverlapFlags =247
+                                            TextAlign =3
+                                            Left =330
+                                            Top =2950
+                                            Width =1695
+                                            Height =240
+                                            FontWeight =700
+                                            Name ="ÉtiquetteTitreCourtoisie"
+                                            Caption ="Titre de courtoisie:"
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    SpecialEffect =2
+                                    OverlapFlags =247
+                                    TextAlign =1
+                                    Left =2159
+                                    Top =3445
+                                    Height =255
+                                    TabIndex =7
+                                    Name ="Date de naissance"
+                                    ControlSource ="Date de naissance"
+                                    Format ="Medium Date"
+                                    EventProcPrefix ="Date_de_naissance"
+                                    Begin
+                                        Begin Label
+                                            BackStyle =0
+                                            OverlapFlags =247
+                                            TextAlign =3
+                                            Left =285
+                                            Top =3445
+                                            Width =1740
+                                            Height =240
+                                            FontWeight =700
+                                            Name ="ÉtiquetteDateNaiss"
+                                            Caption ="Date de naissance:"
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    ScrollBars =2
+                                    SpecialEffect =2
+                                    OverlapFlags =247
+                                    Left =4050
+                                    Top =2670
+                                    Width =4125
+                                    Height =1065
+                                    TabIndex =8
+                                    Name ="Notes"
+                                    ControlSource ="Notes"
+                                    StatusBarText ="Informations générales sur la formation de l'employé."
+                                    Begin
+                                        Begin Label
+                                            BackStyle =0
+                                            OverlapFlags =247
+                                            TextAlign =1
+                                            Left =4050
+                                            Top =2355
+                                            Width =645
+                                            Height =240
+                                            FontWeight =700
+                                            Name ="ÉtiquetteNotes"
+                                            Caption ="Notes:"
+                                        End
+                                    End
+                                End
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483633
+            Name ="PiedFormulaire"
+        End
+    End
+End
+CodeBehindForm
+' See "Employés.cls"

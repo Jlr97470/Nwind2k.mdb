@@ -1,5 +1,5 @@
-﻿SELECT
-  DISTINCTROW Catégories.[Nom de catégorie],
+﻿SELECT DISTINCTROW
+  Catégories.[Nom de catégorie],
   Catégories.Description,
   Catégories.Illustration,
   Produits.[Réf produit],
@@ -12,6 +12,6 @@ FROM
 WHERE
   (
     (
-      (Produits.Indisponible)= No
+      (Produits.Indisponible) = No
     )
   );

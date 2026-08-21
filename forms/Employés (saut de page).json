@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Employés (saut de page) Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Ajoute et modifie des informations personnelles et générales sur les employés. Formulaire de deux pages utilisant des boutons de commande pour passer d'une page à l'autre; avec également une photo de l'employé.\r\n"
+      }
+    }
+  }
+}

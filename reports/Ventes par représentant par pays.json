@@ -23,6 +23,12 @@
       "ItemLayout": "Horizontal Columns",
       "FastPrint": 1,
       "Datasheet": 1
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Imprime les ventes groupées par pays et par représentant. Calcule sous-totaux, total général,  pourcentages; imprime un message lorsque le total d'un employé a atteint l'objectif; initialise le numéro de page à 1 pour chaque nouveau pays."
+      }
     }
   }
 }

@@ -1,0 +1,27 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Récapitulatif des ventes par année"
+  },
+  "Items": {
+    "QueryType": 8,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Requête sous-jacente de l'état Récapitulatif des ventes par année."
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Requête sous-jacente de l'état Récapitulatif des ventes par année."
+      }
+    },
+    "Hidden": true
+  }
+}

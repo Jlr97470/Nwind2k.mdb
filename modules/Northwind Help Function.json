@@ -1,0 +1,15 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Northwind Help Function Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Contains the function that calls Show Me Help for Northwind."
+      }
+    },
+    "Hidden": true
+  }
+}

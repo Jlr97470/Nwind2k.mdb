@@ -1,5 +1,5 @@
-﻿SELECT
-  DISTINCTROW [Sous-totaux commandes].SousTotal AS MontantVente,
+﻿SELECT DISTINCTROW
+  [Sous-totaux commandes].SousTotal AS MontantVente,
   Commandes.[N° commande],
   Clients.Société,
   Commandes.[Date envoi]
@@ -14,7 +14,7 @@ WHERE
     (
       (
         [Sous-totaux commandes].SousTotal
-      )> 12500
+      ) > 12500
     )
     AND (
       (Commandes.[Date envoi]) Between #1/1/95#

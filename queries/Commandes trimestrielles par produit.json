@@ -1,0 +1,67 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Commandes trimestrielles par produit"
+  },
+  "Items": {
+    "QueryType": 16,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "(Analyse croisée) Source d'enregistrements pour le sous-formulaire Commandes par trimestre."
+      },
+      "OrderOn": {
+        "Type": 1,
+        "Value": false
+      },
+      "DatasheetGridlinesColor": {
+        "Type": 4,
+        "Value": 8421504
+      },
+      "DatasheetBackColor": {
+        "Type": 4,
+        "Value": 12632256
+      },
+      "DatasheetCellsEffect": {
+        "Type": 2,
+        "Value": 1
+      }
+    },
+    "Columns": {
+      "AnnéeCommande": {
+        "ColumnWidth": 1860,
+        "AggregateType": -1
+      },
+      "Commandes.[Code client]": {
+        "ColumnWidth": 3510,
+        "AggregateType": -1
+      },
+      "Produits.[Nom du produit]": {
+        "ColumnWidth": 3210,
+        "AggregateType": -1
+      },
+      "Trim 1": {
+        "ColumnWidth": 1185,
+        "AggregateType": -1
+      },
+      "Trim 2": {
+        "ColumnWidth": 1215,
+        "AggregateType": -1
+      },
+      "Trim 3": {
+        "ColumnWidth": 1230,
+        "AggregateType": -1
+      },
+      "Trim 4": {
+        "ColumnWidth": 1245,
+        "AggregateType": -1
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "(Analyse croisée) Source d'enregistrements pour le sous-formulaire Commandes par trimestre."
+      }
+    }
+  }
+}

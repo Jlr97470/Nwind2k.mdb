@@ -1,0 +1,40 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Ventes par catégories pour 1995"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "FilterOn": {
+        "Type": 1,
+        "Value": false
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Totaux des ventes par catégorie de produit basée sur des valeurs renvoyées par la requête Ventes pour 1995."
+      },
+      "OrderOn": {
+        "Type": 1,
+        "Value": false
+      }
+    },
+    "Columns": {
+      "SommeDesVentes": {
+        "ColumnWidth": 2190,
+        "Format": {
+          "Type": "dbText",
+          "Value": "#,##0.00\" F\";-#,##0.00\" F\""
+        },
+        "AggregateType": -1
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Totaux des ventes par catégorie de produit basée sur des valeurs renvoyées par la requête Ventes pour 1995."
+      }
+    }
+  }
+}

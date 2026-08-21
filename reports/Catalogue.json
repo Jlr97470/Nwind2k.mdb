@@ -23,6 +23,12 @@
       "ItemLayout": "Horizontal Columns",
       "FastPrint": 1,
       "Datasheet": 1
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Imprime un catalogue des produits. A deux pages d'en-têtes d'état; utilise des photos pour chaque catégorie; débute chaque catégorie sur une nouvelle page; conserve tous les enregistrements d'une catégorie sur une même page;"
+      }
     }
   }
 }

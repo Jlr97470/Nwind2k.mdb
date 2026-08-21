@@ -1,8 +1,9 @@
-﻿TRANSFORM Sum(
-  CCur(
-    [Détails commandes].[Prix unitaire] * [Quantité] *(1 - [Remise (%)])/ 100
-  )* 100
-) AS MontantProduit
+﻿TRANSFORM
+  Sum(
+    CCur(
+      [Détails commandes].[Prix unitaire] * [Quantité] *(1 - [Remise (%)]) / 100
+    ) * 100
+  ) AS MontantProduit
 SELECT
   Produits.[Nom du produit],
   Commandes.[Code client],
@@ -23,6 +24,8 @@ WHERE
 GROUP BY
   Produits.[Nom du produit],
   Commandes.[Code client],
-  Year([Date commande]) PIVOT "Trim " & DatePart("q", [Date commande], 1) In (
+  Year([Date commande])
+PIVOT
+  "Trim " & DatePart("q", [Date commande], 1) In (
     "Trim 1", "Trim 2", "Trim 3", "Trim 4"
   );

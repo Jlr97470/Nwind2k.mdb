@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Demarrage Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Affiche une description ou des instructions concernant l'utilisation de la base de données exemple Comptoir. Formulaire modal et indépendant affichant le logo des Comptoirs; utilisent des procédures événementielles pour réinitialiser des options."
+      }
+    }
+  }
+}

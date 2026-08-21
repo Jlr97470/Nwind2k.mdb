@@ -1,5 +1,5 @@
-﻿SELECT
-  DISTINCTROW Clients.[Code client],
+﻿SELECT DISTINCTROW
+  Clients.[Code client],
   Clients.Société,
   Clients.Ville,
   Clients.Pays

@@ -1,10 +1,10 @@
-﻿SELECT
-  DISTINCTROW Factures.*
+﻿SELECT DISTINCTROW
+  Factures.*
 FROM
   Factures
 WHERE
   (
     (
-      (Factures.[N° commande])= [Forms]![Commandes]![N° commande]
+      (Factures.[N° commande]) = [Forms]![Commandes]![N° commande]
     )
   );

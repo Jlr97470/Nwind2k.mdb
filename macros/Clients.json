@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Clients Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Liée au formulaire Clients. Vérifie si le code client est unique avant de quitter le champ."
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
-﻿SELECT
-  DISTINCTROW Commandes.Destinataire,
+﻿SELECT DISTINCTROW
+  Commandes.Destinataire,
   Commandes.[Adresse livraison],
   Commandes.[Ville livraison],
   Commandes.[Région livraison],
@@ -24,8 +24,8 @@
   [Détails commandes].Quantité,
   [Détails commandes].[Remise (%)],
   CCur(
-    [Détails commandes].[Prix unitaire] * [Quantité] *(1 - [Remise (%)])/ 100
-  )* 100 AS PrixTotal,
+    [Détails commandes].[Prix unitaire] * [Quantité] *(1 - [Remise (%)]) / 100
+  ) * 100 AS PrixTotal,
   Commandes.Port
 FROM
   Messagers

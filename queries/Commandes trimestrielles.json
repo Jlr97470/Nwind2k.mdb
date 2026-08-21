@@ -1,0 +1,22 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Commandes trimestrielles"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Source d'enregistrements pour le formulaire Commandes trimestrielles. Liste seulement les clients qui ont commandé en 1995."
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Source d'enregistrements pour le formulaire Commandes trimestrielles. Liste seulement les clients qui ont commandé en 1995."
+      }
+    }
+  }
+}

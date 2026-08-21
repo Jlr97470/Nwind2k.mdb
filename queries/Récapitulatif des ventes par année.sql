@@ -1,5 +1,5 @@
-﻿SELECT
-  DISTINCTROW Commandes.[Date envoi],
+﻿SELECT DISTINCTROW
+  Commandes.[Date envoi],
   Commandes.[N° commande],
   [Sous-totaux commandes].SousTotal
 FROM

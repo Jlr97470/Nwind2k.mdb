@@ -1,0 +1,92 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Factures"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "FilterOn": {
+        "Type": 1,
+        "Value": false
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "(Critère) Source pour l'état Facture. Basé sur six tables. Inclut des expressions qui concatènent le prénom et le nom des employés et qui utilisent la fonction CMonnaie pour calculer le prix complet."
+      },
+      "OrderOn": {
+        "Type": 1,
+        "Value": false
+      },
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      }
+    },
+    "Columns": {
+      "[Détails commandes].[Prix unitaire]": {
+        "Format": {
+          "Type": "dbText",
+          "Value": "#,##0.00\" F\";-#,##0.00\" F\""
+        },
+        "AggregateType": -1
+      },
+      "[Détails commandes].[Réf produit]": {
+        "ColumnWidth": 3225,
+        "AggregateType": -1
+      },
+      "Clients.Adresse": {
+        "ColumnWidth": 4200,
+        "AggregateType": -1
+      },
+      "Clients.Société": {
+        "ColumnWidth": 3270,
+        "AggregateType": -1
+      },
+      "Commandes.[Adresse livraison]": {
+        "ColumnWidth": 4200,
+        "AggregateType": -1
+      },
+      "Commandes.[Code client]": {
+        "ColumnWidth": 3510,
+        "AggregateType": -1
+      },
+      "Commandes.[Code postal livraison]": {
+        "ColumnWidth": 2145,
+        "AggregateType": -1
+      },
+      "Commandes.Destinataire": {
+        "ColumnWidth": 3270,
+        "AggregateType": -1
+      },
+      "Commandes.Port": {
+        "ColumnWidth": 1080,
+        "Format": {
+          "Type": "dbText",
+          "Value": "#,##0.00\" F\";-#,##0.00\" F\""
+        },
+        "AggregateType": -1
+      },
+      "PrixTotal": {
+        "Caption": "Prix total",
+        "ColumnWidth": 1545,
+        "Format": {
+          "Type": "dbText",
+          "Value": "#,##0.00\" F\";-#,##0.00\" F\""
+        },
+        "AggregateType": -1
+      },
+      "Vendeur": {
+        "ColumnWidth": 1740,
+        "AggregateType": -1
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "(Critère) Source pour l'état Facture. Basé sur six tables. Inclut des expressions qui concatènent le prénom et le nom des employés et qui utilisent la fonction CMonnaie pour calculer le prix complet."
+      }
+    }
+  }
+}

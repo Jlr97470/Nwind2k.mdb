@@ -1,0 +1,27 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "req Commandes"
+  },
+  "Items": {
+    "QueryType": 8,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Requête sous-jacente du formulaire Commandes."
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Requête sous-jacente du formulaire Commandes."
+      }
+    },
+    "Hidden": true
+  }
+}

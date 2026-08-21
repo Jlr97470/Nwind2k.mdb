@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Liste téléphonique des clients Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Liée au formulaire Liste téléphonique des clients. Affiche tous les enregistrements lorsque le formulaire est ouvert, filtre les clients grâce à la première lettre du nom de la société."
+      }
+    }
+  }
+}

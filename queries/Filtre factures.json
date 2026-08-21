@@ -1,0 +1,30 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Filtre factures"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "FilterOn": {
+        "Type": 1,
+        "Value": false
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Filtre les enregistrements pour l'état Facture. Est utilisé par l'événement Click du bouton Imprimer du formulaire Commandes."
+      },
+      "OrderOn": {
+        "Type": 1,
+        "Value": false
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Filtre les enregistrements pour l'état Facture. Est utilisé par l'événement Click du bouton Imprimer du formulaire Commandes."
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Fournisseurs Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Ajoute et modifie des informations sur les fournisseurs comme le nom, l'adresse, le numéro de téléphone et le lien hypertexte vers la page d'accueil. Utilise des boutons de commande et des procédures événementielles."
+      }
+    }
+  }
+}

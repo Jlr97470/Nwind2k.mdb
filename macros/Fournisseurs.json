@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Fournisseurs Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Pourrait être liée au formulaire Fournisseurs. Ouvre les formulaires Produits et Liste des produits; synchronise les enregistrements des formulaires Fournisseurs et Liste des produits lorsqu'ils sont ouverts."
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Produits Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Ajoute et modifie des informations détaillées sur les produits. Formulaire mono-colonne; comprenant une image de fond. Possède un bouton qui affiche un aperçu des produits. Possède un bouton qui exporte l'état des produits en format HTML."
+      }
+    }
+  }
+}

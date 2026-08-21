@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Commandes client Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Formulaire en lecture seule. Affiche le nom du client et le pays, toutes les commandes en fonction de la société ou du pays sélectionné et affiche ensuite les enregistrements pour la commande sélectionnée."
+      }
+    }
+  }
+}

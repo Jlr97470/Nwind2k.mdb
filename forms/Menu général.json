@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Menu général Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Permet un accès aux autres formulaires et états de la base de données. Utilise des boutons de commande pour ouvrir d'autres formulaires. Affiche le logo de Comptoirs."
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Exemple d'Autokeys Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Définit une combinaison de touches utilisée dans le formulaire Liste téléphonique des clients. D'autres combinaisons peuvent y être ajoutées. "
+      }
+    }
+  }
+}

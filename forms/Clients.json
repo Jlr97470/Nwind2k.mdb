@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Clients Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Ajoute et modifie des informations de client comme le nom, l'adresse et le numéro de téléphone. Formulaire à une seule colonne; utilisant une image de fond, une macro pour valider le code client.\r\n"
+      }
+    }
+  }
+}

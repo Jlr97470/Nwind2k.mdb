@@ -1,0 +1,48 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Produits supérieurs moyenne prix"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "OrderOn": {
+        "Type": 1,
+        "Value": false
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "(Sous-requête) Renvoie les produits qui ont un prix unitaire supérieur à la moyenne."
+      },
+      "DatasheetGridlinesColor": {
+        "Type": 4,
+        "Value": 8421504
+      },
+      "DatasheetBackColor": {
+        "Type": 4,
+        "Value": 12632256
+      },
+      "DatasheetCellsEffect": {
+        "Type": 2,
+        "Value": 1
+      }
+    },
+    "Columns": {
+      "Produits.[Nom du produit]": {
+        "ColumnWidth": 2985,
+        "AggregateType": -1
+      },
+      "Produits.[Prix unitaire]": {
+        "ColumnWidth": 1335,
+        "AggregateType": -1
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "(Sous-requête) Renvoie les produits qui ont un prix unitaire supérieur à la moyenne."
+      }
+    }
+  }
+}

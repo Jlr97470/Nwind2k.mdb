@@ -23,6 +23,12 @@
       "ItemLayout": "Horizontal Columns",
       "FastPrint": 1,
       "Datasheet": 1
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Imprime chaque facture sur une page séparée. Utilise la fonction VraiFaux dans les contrôles adresse et la fonction Somme pour calculer le sous-total de la facture."
+      }
     }
   }
 }

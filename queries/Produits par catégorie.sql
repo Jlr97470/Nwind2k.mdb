@@ -1,5 +1,5 @@
-﻿SELECT
-  DISTINCTROW Catégories.[Nom de catégorie],
+﻿SELECT DISTINCTROW
+  Catégories.[Nom de catégorie],
   Produits.[Nom du produit],
   Produits.[Quantité par unité],
   Produits.[Unités en stock],
@@ -10,7 +10,7 @@ FROM
 WHERE
   (
     (
-      (Produits.Indisponible)<> Yes
+      (Produits.Indisponible) <> Yes
     )
   )
 ORDER BY

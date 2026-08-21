@@ -1,7 +1,7 @@
-﻿PARAMETERS Forms![Dialogue ventes annuelles]![Date début] DateTime,
-Forms![Dialogue ventes annuelles]![Date fin] DateTime;
-SELECT
-  DISTINCTROW Commandes.[Date envoi],
+﻿PARAMETERS [Forms!Dialogue ventes annuelles!Date début] DateTime,
+[Forms!Dialogue ventes annuelles!Date fin] DateTime;
+SELECT DISTINCTROW
+  Commandes.[Date envoi],
   Commandes.[N° commande],
   [Sous-totaux commandes].SousTotal,
   Format([Date envoi], "yyyy") AS Année

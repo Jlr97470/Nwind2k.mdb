@@ -1,5 +1,5 @@
-﻿SELECT
-  DISTINCTROW Commandes.[N° commande],
+﻿SELECT DISTINCTROW
+  Commandes.[N° commande],
   Commandes.[Code client],
   Commandes.[N° employé],
   Commandes.[Date commande],

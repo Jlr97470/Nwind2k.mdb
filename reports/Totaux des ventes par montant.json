@@ -23,6 +23,12 @@
       "ItemLayout": "Horizontal Columns",
       "FastPrint": 1,
       "Datasheet": 1
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Imprime les ventes par ordre décroissant des montants. Imprime les dix meilleurs clients sur la première page; imprime le total de la page dans le pied de page."
+      }
     }
   }
 }

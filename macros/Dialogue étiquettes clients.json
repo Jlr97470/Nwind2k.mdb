@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Dialogue étiquettes clients Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Liée au formulaire Dialogue étiquettes clients. Visualise ou imprime l'état Étiquettes clients. Active ou désactive la zone de liste modifiable SélectionPays."
+      }
+    }
+  }
+}

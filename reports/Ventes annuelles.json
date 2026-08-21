@@ -23,6 +23,12 @@
       "ItemLayout": "Horizontal Columns",
       "FastPrint": 1,
       "Datasheet": 1
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Imprime les totaux par trimestre dans un sous-état de l'en-tête de groupe; imprime de manière optionnelle les détails d'enregistrements; possède un formulaire qui demande une plage de date."
+      }
     }
   }
 }

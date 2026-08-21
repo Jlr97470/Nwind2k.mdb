@@ -1,0 +1,39 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Liste des produits courants"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "FilterOn": {
+        "Type": 1,
+        "Value": false
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Filtre les enregistrements dans la table Produits; renvoit seulement les produits disponibles."
+      },
+      "OrderOn": {
+        "Type": 1,
+        "Value": false
+      },
+      "DatasheetGridlinesBehavior": {
+        "Type": 2,
+        "Value": 3
+      }
+    },
+    "Columns": {
+      "[Liste des produits].[Nom du produit]": {
+        "ColumnWidth": 3210,
+        "AggregateType": -1
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Filtre les enregistrements dans la table Produits; renvoit seulement les produits disponibles."
+      }
+    }
+  }
+}

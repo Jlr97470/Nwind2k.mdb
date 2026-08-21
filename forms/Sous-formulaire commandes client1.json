@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Sous-formulaire commandes client1 Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Sous-formulaire utilisé dans le formulaire Commandes client."
+      }
+    }
+  }
+}

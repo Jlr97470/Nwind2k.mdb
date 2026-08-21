@@ -23,6 +23,12 @@
       "ItemLayout": "Horizontal Columns",
       "FastPrint": 1,
       "Datasheet": 1
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Imprime l'état récapitulatif montrant les ventes de chaque trimestre provenant de plusieurs années. Utilise les fonctions PartDate pour grouper les enregistrements par trimestre, Compte pour compter les commandes et Somme pour calculer les totaux."
+      }
     }
   }
 }

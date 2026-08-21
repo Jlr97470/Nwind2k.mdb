@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Analyse des ventes Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Représente, dans un tableau croisé dynamique, les ventes des employés pour un ou pour tous les pays. Les totaux incluent les ventes de chaque employé par trimestre, et les ventes totales et moyennes pour chaque année."
+      }
+    }
+  }
+}

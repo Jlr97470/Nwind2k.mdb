@@ -1,0 +1,27 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Totaux des ventes par montant"
+  },
+  "Items": {
+    "QueryType": 8,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Requête sous-jacente de l'état Totaux des ventes par montant."
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Requête sous-jacente de l'état Totaux des ventes par montant."
+      }
+    },
+    "Hidden": true
+  }
+}

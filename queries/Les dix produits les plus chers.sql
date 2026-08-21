@@ -1,5 +1,5 @@
-﻿SELECT
-  DISTINCTROW TOP 10 Produits.[Nom du produit] AS LesDixProduitsLesPlusChers,
+﻿SELECT DISTINCTROW TOP 10
+  Produits.[Nom du produit] AS LesDixProduitsLesPlusChers,
   Produits.[Prix unitaire]
 FROM
   Produits

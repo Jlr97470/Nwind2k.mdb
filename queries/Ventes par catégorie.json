@@ -1,0 +1,36 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Ventes par catégorie"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "OrderOn": {
+        "Type": 1,
+        "Value": false
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Source d'enregistrements pour l'état Ventes par catégorie."
+      }
+    },
+    "Columns": {
+      "Produits.[Nom du produit]": {
+        "ColumnWidth": 2970,
+        "AggregateType": -1
+      },
+      "VentesProduit": {
+        "ColumnWidth": 1665,
+        "AggregateType": -1
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Source d'enregistrements pour l'état Ventes par catégorie."
+      }
+    }
+  }
+}

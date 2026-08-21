@@ -1,0 +1,30 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Ventes annuelles"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "OrderOn": {
+        "Type": 1,
+        "Value": false
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "(Paramètre) Source d'enregistrements pour l'état Ventes annuelles et ses sous-états. Se réfère aux contrôles du dialogue Ventes annuelles pour la valeur des paramètres. Utilise la fonction Format pour extraire l'année de la date d'envoi."
+      },
+      "DatasheetGridlinesBehavior": {
+        "Type": 2,
+        "Value": 3
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "(Paramètre) Source d'enregistrements pour l'état Ventes annuelles et ses sous-états. Se réfère aux contrôles du dialogue Ventes annuelles pour la valeur des paramètres. Utilise la fonction Format pour extraire l'année de la date d'envoi."
+      }
+    }
+  }
+}

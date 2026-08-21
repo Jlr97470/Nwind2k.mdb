@@ -1,0 +1,27 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Liste alphabétique des produits"
+  },
+  "Items": {
+    "QueryType": 8,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Requête sous-jacente de l'état Liste alphabétique des produits."
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Requête sous-jacente de l'état Liste alphabétique des produits."
+      }
+    },
+    "Hidden": true
+  }
+}

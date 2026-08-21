@@ -1,0 +1,56 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Clients et fournisseurs par ville"
+  },
+  "Items": {
+    "QueryType": 128,
+    "OptionFlag": 3,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "(Union) Retourne une liste de fournisseurs et de clients dans chaque ville."
+      },
+      "OrderOn": {
+        "Type": 1,
+        "Value": false
+      },
+      "DatasheetGridlinesColor": {
+        "Type": 4,
+        "Value": 8421504
+      },
+      "DatasheetBackColor": {
+        "Type": 4,
+        "Value": 12632256
+      },
+      "DatasheetCellsEffect": {
+        "Type": 2,
+        "Value": 1
+      }
+    },
+    "Columns": {
+      "Clients.Contact": {
+        "ColumnWidth": 1725,
+        "AggregateType": -1
+      },
+      "Clients.Société": {
+        "ColumnWidth": 3735,
+        "AggregateType": -1
+      },
+      "Clients.Ville": {
+        "ColumnWidth": 1410,
+        "AggregateType": -1
+      },
+      "Relation": {
+        "ColumnWidth": 1275,
+        "AggregateType": -1
+      }
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "(Union) Retourne une liste de fournisseurs et de clients dans chaque ville."
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "Catégories Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Ajoute et modifie des catégories de produits. Le formulaire principal affiche des informations sur la catégorie; le sous-formulaire affiche des informations limitées sur les produits."
+      }
+    }
+  }
+}
